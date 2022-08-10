@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 50px;
+}
+.logo {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 0 5px;
+}
+.navbar a:hover {
+  color: #fff;
+}
+
+.active {
+    color: #fff;
+}
